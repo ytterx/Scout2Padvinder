@@ -1,0 +1,16 @@
+{
+	"name": "Scout2Padvinder",
+	"version": "0.1",
+	"description": "Chromium extention to replace all occurances of \"Scout\" or \"Scouting\" to \"Padvinder\" and \"Padvinderij\"",
+	"manifest_version": 2,
+	"content_scripts": [
+	{
+		"matches": [
+			"<all_urls>"
+		],
+		"js": ["content.js"]
+	}],
+    "permissions": [
+      "activeTab"
+    ]
+}
